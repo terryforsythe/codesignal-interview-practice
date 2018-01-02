@@ -9,15 +9,15 @@ public class FirstDuplicate {
 
 		int noDuplicateValue = -1;
 
-		Set<Integer> firstOccurencesOfNumber = new HashSet<Integer>();
+		Set<Integer> firstOccurenceOfNumber = new HashSet<Integer>();
 
 		for (int number : array) {
 
-			if (firstOccurencesOfNumber.contains(number)) {
+			if (firstOccurenceOfNumber.contains(number)) {
 				return number;
 			}
 
-			firstOccurencesOfNumber.add(number);
+			firstOccurenceOfNumber.add(number);
 		}
 
 		return noDuplicateValue;
