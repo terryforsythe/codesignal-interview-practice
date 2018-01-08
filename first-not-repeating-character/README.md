@@ -1,13 +1,10 @@
-Given a string s, find and return the first instance of a non-repeating character in it. If there is no such character, return '_'.
+### First Not Repeating Character
 
-Example
+Given a string `s`, find and return the first instance of a non-repeating character in it. 
+If there is no such character, return `'_'`.
 
-For s = "abacabad", the output should be
-firstNotRepeatingCharacter(s) = 'c'.
+##### Examples
 
-There are 2 non-repeating characters in the string: 'c' and 'd'. Return c since it appears in the string first.
+* For `s = "abacabad"`, the output should be `firstNotRepeatingCharacter(s) = 'c'`. <br><br>There are 2 non-repeating characters in the string: 'c' and 'd'. Return c since it appears in the string first.
 
-For s = "abacabaabacaba", the output should be
-firstNotRepeatingCharacter(s) = '_'.
-
-There are no characters in this string that do not repeat.
+* For `s = "abacabaabacaba"`, the output should be `firstNotRepeatingCharacter(s) = '_'`. <br><br>There are no characters in this string that do not repeat.
