@@ -4,8 +4,6 @@ Given an array `a` that contains only numbers in the range from `1` to `a.length
 
 ##### Examples
 
-* For `a = [2, 3, 3, 1, 5, 2]`, the output should be
-`firstDuplicate(a) = 3`. <br><br>There are two duplicates: numbers `2` and `3`. The second occurrence of `3` has a smaller index than the second occurrence of `2`, so the answer is `3`.
+* For `a = [2, 3, 3, 1, 5, 2]`, the output should be `firstDuplicate(a) = 3`. <br>There are two duplicates: numbers `2` and `3`. The second occurrence of `3` has a smaller index than the second occurrence of `2`, so the answer is `3`.
 
-* For `a = [2, 4, 3, 5, 1]`, the output should be
-`firstDuplicate(a) = -1`.
+* For `a = [2, 4, 3, 5, 1]`, the output should be `firstDuplicate(a) = -1`.
