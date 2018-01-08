@@ -5,6 +5,6 @@ If there is no such character, return `'_'`.
 
 ##### Examples
 
-* For `s = "abacabad"`, the output should be `firstNotRepeatingCharacter(s) = 'c'`. <br><br>There are 2 non-repeating characters in the string: 'c' and 'd'. Return c since it appears in the string first.
+* For `s = "abacabad"`, the output should be `firstNotRepeatingCharacter(s) = 'c'`. <br>There are two non-repeating characters in the string: `'c'` and `'d'`. Return `c` since it appears in the string first.
 
 * For `s = "abacabaabacaba"`, the output should be `firstNotRepeatingCharacter(s) = '_'`. <br><br>There are no characters in this string that do not repeat.
