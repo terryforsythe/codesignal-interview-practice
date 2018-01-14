@@ -1,7 +1,7 @@
-### First Not Repeating Character
+First Not Repeating Character
+-----
 
-Given a string `s`, find and return the first instance of a non-repeating character in it. 
-If there is no such character, return `'_'`.
+Given a string `s`, find and return the first instance of a non-repeating character in it. <br>If there is no such character, return `'_'`.
 
 ##### Examples
 
