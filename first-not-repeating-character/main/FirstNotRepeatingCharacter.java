@@ -18,8 +18,8 @@ public class FirstNotRepeatingCharacter {
 			if (charactersCount.containsKey(character)) {
 
 				int increaseCountBy1 = charactersCount.get(character) + 1;
-				charactersCount.put(character, increaseCountBy1);
 
+				charactersCount.put(character, increaseCountBy1);
 				continue;
 			}
 
