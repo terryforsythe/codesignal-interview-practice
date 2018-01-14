@@ -10,23 +10,28 @@ public class FirstNotRepeatingCharacter {
 		// default return value when all characters repeat
 		final char UNDERSCORE = 0x005F;
 
-		// count the number of occurrences for each character
 		Map<Character, Integer> charactersCount = new LinkedHashMap<Character, Integer>();
 
+		// add characters of String input to Map and count number of occurrences
 		for (char character : input.toCharArray()) {
 
 			if (charactersCount.containsKey(character)) {
-				charactersCount.put(character, charactersCount.get(character) + 1);
+
+				int increaseCountBy1 = charactersCount.get(character) + 1;
+				charactersCount.put(character, increaseCountBy1);
+
 				continue;
 			}
 
 			charactersCount.put(character, 1);
 		}
 
-		// return first occurring key with value of 1 (one occurrence)
+		// return first occurring character with value of 1 (one occurrence)
 		for (Character character : charactersCount.keySet()) {
 
-			if (charactersCount.get(character) == 1) {
+			boolean isFirstNotRepeatingCharacter = charactersCount.get(character) == 1;
+
+			if (isFirstNotRepeatingCharacter) {
 				return character;
 			}
 		}

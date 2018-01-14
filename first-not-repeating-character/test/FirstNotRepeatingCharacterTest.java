@@ -14,7 +14,7 @@ public class FirstNotRepeatingCharacterTest {
 	private char result() {
 		return FirstNotRepeatingCharacter.firstNotRepeatingCharacter(string);
 	}
-	
+
 	@Test
 	public void shouldReturnUnderscoreWhenAllCharactersRepeat() {
 		string = "abacabaabacaba";
@@ -39,4 +39,5 @@ public class FirstNotRepeatingCharacterTest {
 		string = "ngrhhqbhnsipkcoqjyviikvxbxyphsnjpdxkhtadltsuxbfbrkof";
 		assertThat(result(), is('g'));
 	}
+
 }
