@@ -1,4 +1,4 @@
-Interview Practice Excercises via [CodeFights](https://codefights.com/)
+Interview Practice Excercises via [CodeSignal](https://codesignal.com/)
 -----
 
 *Note: Each exercise is in its own folder*
